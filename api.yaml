@@ -1,0 +1,28 @@
+swagger: '2.0'
+
+info:
+  title: WIND API
+  version: '1.0'
+  description: 'REST API interface for WIND service'
+
+basePath: /v1
+
+
+paths:
+  /wind:
+    post:
+      $handler: freedom.views.wind
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: wind
+          in: body
+          required: true
+
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Validation error

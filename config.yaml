@@ -1,0 +1,14 @@
+app:
+  cls: freedom.app.Application
+  debug: yes
+  router:
+    cls: aioworkers_aiohttp.router.Router
+    swagger_ui: /docs
+    version_ui: 3
+  resources:
+    /v1:
+      include: api.yaml
+
+redis:
+  cls: freedom.redis.Connector
+  prefix: freedom

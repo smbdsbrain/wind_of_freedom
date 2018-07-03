@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+aiohttp = "==2.3.6"
+aioworkers = "==0.10.2.1"
+aioworkers_aiohttp = "==0.3"
+aioworkers-redis = "*"
+aioredis = "*"
+yarl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

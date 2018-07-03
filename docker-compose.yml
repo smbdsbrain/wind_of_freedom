@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    command: api
+    environment:
+      - GA_TRACKING_ID=XXXXXXXXXXX
+    ports:
+      - 8080:8080

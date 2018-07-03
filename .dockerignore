@@ -1,0 +1,10 @@
+*
+!freedom/
+!entrypoint.sh
+!api.yaml
+!config.yaml
+!Pipfile
+!Pipfile.lock
+!.editorconfig
+!setup.cfg
+**/*.pyc

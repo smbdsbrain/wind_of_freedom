@@ -1,11 +1,20 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0118564d2ad04d2a3456a7dada43cbbcee823d028879a970d31b1b80feedc805"
+            "sha256": "1a33a82340ae972abc55fad3d9d257044e5a0d66e8f1ec32c4894f0a13a43346"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "Faker": "*",
+            "flake8": "*",
+            "flake8-isort": "*",
+            "pep8-naming": "*",
+            "pytest": "*",
+            "pytest-aiohttp": "*",
+            "pytest-cov": "*",
+            "pytest-env": "*",
+            "pytest-flake8": "*",
+            "pytest-mock": "*"
         },
         "sources": [
             {

@@ -7,11 +7,12 @@ info:
 
 basePath: /v1
 
-
+security: []
 paths:
   /wind:
     post:
       $handler: freedom.views.wind
+      security: []
       consumes:
         - application/json
       produces:
@@ -20,6 +21,9 @@ paths:
         - name: wind
           in: body
           required: true
+          schema:
+            type: object
+            properties: {}
 
       responses:
         '200':
